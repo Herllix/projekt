@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+.map, .employees, .form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.map {
+    width: 33.3%;
+}
+.employees {
+    width: 33.3%;
+}
+.form {
+    width: 33.4%; 
+}
+figcaption{
+    color:black;
+    text-align: center;
+}
+.employees p{
+    font-size: 24px;
+}
+.employees a{
+    text-decoration: none;
+    color: black;
+}

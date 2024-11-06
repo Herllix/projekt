@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main div {
+    padding: 20px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+.main p {
+    line-height: 1.5;
+    max-width: 50%;
+    border-bottom: 1px solid black;                                                                 
+}
